@@ -6,7 +6,7 @@ LangChain is a framework designed for building applications with large language 
 
 ## Basic Concepts in LangChain
 
-- **Prompt**: A prompt is like a template or a question that you give to the language model to get a specific type of response. It can be a simple text or a more complex structure that includes placeholders for user inputs. For example, asking "Tell me a joke about {topic}" where `{topic}` can be filled in with anything like "cats" or "computers."
+- **Prompt**: A prompt is like a template or a question that you give to the language model to get a specific type of response. It can be a simple text or a more complex structure that includes placeholders for user inputs. For example, asking "Provide a short summary about {topic}" where `{topic}` can be filled in with anything like "deep learning" or "electromagnetic effect."
 
 - **Model**: This is the language model that actually understands and responds to the prompts. LangChain supports various models, such as those from OpenAI, Anthropic, and others. Each model might require certain setup steps, like getting an API key to use it. Think of the model as the 'brain' behind the application that processes input and generates output.
 
