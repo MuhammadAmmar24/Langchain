@@ -1,15 +1,15 @@
 
-## LangChain: Getting Started Guide
+# LangChain: Getting Started Guide
 
 
 
 **To get started with LangChain in Python, here's a basic overview and step-by-step guide on how to use it:**
 
-### What is LangChain?
+## What is LangChain?
 
 LangChain is a framework designed for building applications with large language models (LLMs). It provides tools and abstractions for combining various components like prompts, models, and output parsers into a cohesive workflow. This makes it easier to create and manage complex applications that leverage language models for tasks like chatbots, content generation, and more.
 
-### Installing LangChain
+## Installing LangChain
 
 To start using LangChain, you need to install it. You can do this using pip:
 
@@ -23,7 +23,7 @@ Depending on the specific use case or model you want to integrate, you might als
 pip install langchain-openai
 ```
 
-### Basic Concepts in LangChain
+## Basic Concepts in LangChain
 
 - **Prompt**: This is the template for the input you want to provide to the language model. It can be a simple string or a more complex template that gets filled with user-provided variables.
 - **Model**: This represents the language model itself. LangChain supports various models, including those from OpenAI, Anthropic, and others. Each model requires specific API keys and environment setups.
